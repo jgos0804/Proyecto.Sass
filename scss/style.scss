@@ -1,0 +1,26 @@
+// Primera linea de comentario
+/* Primer comentario para ambos archivos*/
+
+@import "utilities/variables";
+
+// NESTING
+
+header{
+    text-align: center;
+    background-image: linear-gradient(to bottom, gray, white);
+    margin-top:200px ;
+    .texto{
+        color: $color-prinicipal;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 30px;
+        h1{
+            color:$color-prinicipal;
+            text-shadow: 1px 1px 10px $color-prinicipal;
+            text-decoration: underline;
+            background-color: $color-secundario;
+            padding: 20px;
+        }
+    }
+}
+

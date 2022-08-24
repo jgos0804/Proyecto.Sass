@@ -1,0 +1,16 @@
+/* Primer comentario para ambos archivos*/
+header {
+  text-align: center;
+  background-image: linear-gradient(to bottom, gray, white);
+  margin-top: 200px; }
+  header .texto {
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px; }
+    header .texto h1 {
+      color: black;
+      text-shadow: 1px 1px 10px black;
+      text-decoration: underline;
+      background-color: white;
+      padding: 20px; }
